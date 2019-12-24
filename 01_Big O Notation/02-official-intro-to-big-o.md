@@ -1,4 +1,6 @@
-[# introducing....big o](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/11069998#content)
+[Link to the lecture](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/11069998#content)
+
+# Official Intro to Big 0
 
 big o notation is a way to formalize fuzzy counting
 
