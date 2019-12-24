@@ -15,7 +15,7 @@ They usually all simplify down to
 
 ## Smaller Terms Don't Matter
 ### For example
-    O(n + 10) or O(1000n + 50) or O(n + 5n + 8 )
+    O(n + 10) or O(1000n + 50) or O(n^2 + 5n + 8 )
 
 They usually all simplify down to 
     O(n) or O(1) or O(n^2)
