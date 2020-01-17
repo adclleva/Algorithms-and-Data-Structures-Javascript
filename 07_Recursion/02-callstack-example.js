@@ -1,3 +1,4 @@
+// the purpose of this code is to present a 
 function takeShower(){
     return "Showering!"
 }

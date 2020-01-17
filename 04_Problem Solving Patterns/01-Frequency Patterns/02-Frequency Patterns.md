@@ -54,5 +54,22 @@ function same(arr1, arr2){
 
 Time Complexity - O(n)
 
+## Using the 'in' operator
 
+The in operator is pretty useful. It allows us to check if an object has a property.
 
+This operator returns true if the first operand is a property of the object passed on the right, or a property of one of its ancestors in its prototype chain.
+
+Otherwise it returns false.
+
+### Syntax
+
+prop in object
+
+#### Parameters
+
+prop
+    A string or symbol representing a property name or array index (non-symbols will be coerced to strings).
+
+object
+    Object to check if it (or its prototype chain) contains the property with specified name (prop).
