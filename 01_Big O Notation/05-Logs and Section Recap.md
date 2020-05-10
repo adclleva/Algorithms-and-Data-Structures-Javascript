@@ -11,6 +11,7 @@ Sometimes big O expressions involve more complex mathematical expressions
 One that appears more often than you might like is the logarithm!
 
 ## Wait, what's a log again?
+```
 log(base 2)(8) = 3 ==> 2^3 = 8 
 
 log(base 2)(value) = exponent ==> 2^(exponent) = value
@@ -18,6 +19,7 @@ log(base 2)(value) = exponent ==> 2^(exponent) = value
 We'll omit the 2.
 
 log === log(base 2)
+```
 
 ## Wut.
 This isn't a math course, so here's a rule of thumb.
@@ -26,6 +28,7 @@ The logarithm of a number roughly measures the number of times you can divide th
 
 ## Logarithm Examples
 example 1:    
+```
 - 8
 -     % 2 
 - 4
@@ -34,8 +37,10 @@ example 1:
 -     % 2
 - 1 and it's less than or equal to
 - thus, log(8) = 3
+```
 
 example 2:    
+```
 - 25
 -     % 2
 - 12.5
@@ -48,6 +53,7 @@ example 2:
 -     % 2
 - 0.78125 and it's less than 1
 - thus, log(25) ≈ 4.642
+```
 
 ## Who Cares?
 Certain searching algorithms have logarithmic time complexity.

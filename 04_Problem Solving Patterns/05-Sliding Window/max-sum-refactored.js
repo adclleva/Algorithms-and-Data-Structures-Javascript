@@ -34,4 +34,29 @@ const maxSubarraySum = (arr,num) => {
   return maxSum
 }
 
+const maxSubarraySumRefactored2 = (arr, num) => {
+  if (arr.length < num) {
+    return null;
+  }
+
+  let max = 0;
+  let tempSum = 0;
+
+  for (let i = 0; i < num; i ++) {
+    tempSum += arr[i];
+  }
+  max = tempSum;
+  
+  for (let i = 0; i < arr.length - num; i++) {    
+
+    tempSum = tempSum - arr[i] + arr[i + num];  
+    if (tempSum > max) {
+      max = tempSum;
+    }
+  }
+
+  return max;
+}
+
+
 console.log(maxSubarraySum([2,6,9,2,1,8,5,6,3],3)) // 19

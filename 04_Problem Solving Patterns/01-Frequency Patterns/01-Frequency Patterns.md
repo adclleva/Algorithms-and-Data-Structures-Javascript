@@ -11,6 +11,7 @@ same([1,2,3], [1,9]) // false
 same([1,2,1], [4,4,1]) // false (must be same frequency)
 
 ## A NAIVE SOLUTION
+```
 function same(arr1, arr2){
     if(arr1.length !== arr2.length){
         return false;
@@ -24,11 +25,14 @@ function same(arr1, arr2){
     }
     return true
 }
+```
 
 Time Complexity - N^2
 
 ## REFACTORED
 
+Always remember the two or three separated loops is significantly better than a nested loop in terms of time complexity.
+```
 function same(arr1, arr2){
     if(arr1.length !== arr2.length){
         return false;
@@ -51,7 +55,7 @@ function same(arr1, arr2){
     }
     return true
 }
-
+```
 Time Complexity - O(n)
 
 ## Using the 'in' operator

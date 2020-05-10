@@ -1,11 +1,12 @@
 # OBJECTS
 Unordered, key value pairs!
-
+```
 let instructor = {
     firstName: "Kelly",
     isInstructor: true,
     favoriteNumbers: [1,2,3,4]
 }
+```
 
 ## When to use objects
 When you don't need order
