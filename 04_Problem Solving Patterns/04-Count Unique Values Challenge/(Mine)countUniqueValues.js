@@ -54,3 +54,27 @@ console.log(countUniqueValuesRefactored([1,2,3,4,4,4,7,7,12,12,13])) // 7
 console.log(countUniqueValuesRefactored([])) // 0
 console.log(countUniqueValuesRefactored([-2,-1,-1,0,1])) // 4
 console.log(countUniqueValuesRefactored([-2,-2,-2,-2,-2])) // 0
+
+
+const countUniqueValues = arr => {
+  let count = 1
+  let pointer1 = 0
+  let pointer2 = 1
+  
+  if (arr.length <= 0) {
+    return 0
+  }
+
+  while (pointer2 < arr.length) {
+    let num1 = arr[pointer1]
+    let num2 = arr[pointer2]
+
+    if (num1 != num2) {
+      count++
+      pointer1 = pointer2
+    }
+    pointer2++
+  }
+
+  return count
+}
