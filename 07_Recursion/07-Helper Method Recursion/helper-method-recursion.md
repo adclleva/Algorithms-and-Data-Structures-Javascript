@@ -17,11 +17,11 @@ function outer(input){
  ## ANOTHER EXAMPLE
 
 Let's try to collect all of the odd values in an array!
-
+```
 function collectOddValues(arr){
     
     let result = []
-
+    
     function helper(helperInput){
         if(helperInput.length === 0) {
             return;
@@ -39,3 +39,4 @@ function collectOddValues(arr){
     return result;
 
 }
+```
