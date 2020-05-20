@@ -12,3 +12,11 @@
   -If the value is too small, move the left pointer up
 - If the value is too large, move the right pointer down
 -If you never find the value, return -1
+
+## WHAT ABOUT BIG O?
+
+O(log n)
+Worst and Average Case
+
+O(1)
+Best Case
