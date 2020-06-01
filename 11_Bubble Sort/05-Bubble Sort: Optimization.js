@@ -2,7 +2,7 @@
 
 /**
  * we optimized the bubble sort by having the algorithm to stop looping
- * once the array is already sorted
+ * once the array is already sorted to save time
  */
 
 function bubbleSort(arr) {
