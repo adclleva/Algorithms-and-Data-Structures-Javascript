@@ -2,7 +2,7 @@
 
 | Time Complexity (Best) | Time Complexity (Average) | Time Complexity (Worst) | Space Complexity |
 | ---------------------- | ------------------------- | ----------------------- | ---------------- |
-| O(n log n)             | O(n log n)                | O(n log n)              | O(n)             |
+| O(nk)                  | O(nk)                     | O(nk)                   | O(n + k)         |
 
-n - length of array
-k - number of digits(average)
+- n - length of array
+- k - number of digits(average)
