@@ -135,12 +135,12 @@ class DoublyLinkedList {
   }
 
   reverse() {
-    var currentNode = this.head;
-    this.head = this.tail;
-    this.tail = currentNode;
+    var currentNode = this.first;
+    this.first = this.last;
+    this.last = currentNode;
 
     var prevNode = null;
-    var nextNode;
+    var nextNode = null;
 
     for (var i = 0; i < this.length; i++) {
       // save reference to next node
@@ -156,8 +156,6 @@ class DoublyLinkedList {
       // set current to saved reference to next node
       currentNode = nextNode;
     }
-
-    return this;
   }
 
   print() {
