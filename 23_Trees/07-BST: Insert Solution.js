@@ -34,6 +34,8 @@ class BinarySearchTree {
       }
     }
   }
+
+  recursiveInsert(value) {}
 }
 
 //      10
