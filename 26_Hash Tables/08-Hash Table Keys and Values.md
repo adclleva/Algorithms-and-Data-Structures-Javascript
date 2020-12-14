@@ -1,0 +1,5 @@
+# Keys / Values
+## keys
+Loops through the hash table array and returns an array of keys in the table
+## values
+Loops through the hash table array and returns an array of values in the table
